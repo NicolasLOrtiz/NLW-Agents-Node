@@ -24,7 +24,7 @@ Content-Type: application/json
 }
 
 ###
-
+# TODO: Replace the roomId with the one returned from the createRoom response using IntelliJ HTTP Client
 @roomId = {{createRoom.response.body.$.roomId}}
 
 ###
